@@ -1,5 +1,7 @@
-echo "Addition of two numbers"
-echo $1 
+#!/bin/bash
 
-echo $2 
-echo the addition of 10 and 20 is `expr 10 + 20` 
+echo " please provide correct number of arguments"
+
+result=`expr $1 + $2`
+echo " sum of arg1 and arg2 is": $result
+
